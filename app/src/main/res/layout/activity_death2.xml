@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".view.death.DeathActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            style="@style/tv_fields"
+            android:text="@string/nama_jenazah"
+            android:id="@+id/tv_jenazah" />
+        <EditText
+            style="@style/edt_fields"
+            android:background="@drawable/custom_edit_text"
+            android:hint="@string/nama_jenazah"
+            android:id="@+id/edt_nama_jenazah"
+            android:inputType="text" />
+        <TextView
+            style="@style/tv_fields"
+            android:text="@string/nik_jenazah"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tv_nik_jenazah" />
+        <EditText
+            style="@style/edt_fields"
+            android:background="@drawable/custom_edit_text"
+            android:hint="@string/_317xxxxxxx"
+            android:id="@+id/edt_nik_jenazah"
+            android:inputType="number" />
+        <TextView
+            style="@style/tv_fields"
+            android:layout_marginTop="5dp"
+            android:text="@string/foto_ktp_jenazah" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/img_ktp_jenazah"
+            android:src="@drawable/ic_image" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatButton
+                style="@style/btn_fields"
+                android:id="@+id/btn_camera_jenazah"
+                android:text="@string/camera"
+                android:background="@drawable/rounded_button"
+                android:layout_weight="1"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                style="@style/btn_fields"
+                android:id="@+id/btn_gallery_jenazah"
+                android:text="@string/gallery"
+                android:background="@drawable/rounded_button"
+                android:layout_weight="1"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <TextView
+            style="@style/tv_fields"
+            android:text="@string/nama_pelapor"
+            android:id="@+id/tv_pelapor" />
+        <EditText
+            style="@style/edt_fields"
+            android:background="@drawable/custom_edit_text"
+            android:hint="@string/nama_pelapor"
+            android:id="@+id/edt_nama_pelapor"
+            android:inputType="text" />
+        <TextView
+            style="@style/tv_fields"
+            android:text="@string/nik_pelapor"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tv_nik_pelapor" />
+        <EditText
+            style="@style/edt_fields"
+            android:background="@drawable/custom_edit_text"
+            android:hint="@string/_317xxxxxxx"
+            android:id="@+id/edt_nik_pelapor"
+            android:inputType="number" />
+        <TextView
+            style="@style/tv_fields"
+            android:layout_marginTop="5dp"
+            android:text="@string/foto_ktp_pelapor" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/img_ktp_pelapor"
+            android:src="@drawable/ic_image" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatButton
+                style="@style/btn_fields"
+                android:id="@+id/btn_camera_pelapor"
+                android:text="@string/camera"
+                android:background="@drawable/rounded_button"
+                android:layout_weight="1"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                style="@style/btn_fields"
+                android:id="@+id/btn_gallery_pelapor"
+                android:text="@string/gallery"
+                android:background="@drawable/rounded_button"
+                android:layout_weight="1"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+
+        <TextView
+            style="@style/tv_fields"
+            android:text="@string/nomor_kontak_pelapor"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tv_kontak_pelapor" />
+
+        <EditText
+            style="@style/edt_fields"
+            android:background="@drawable/custom_edit_text"
+            android:hint="@string/_081xxxxxxxx"
+            android:id="@+id/edt_kontak_pelapor"
+            android:inputType="number" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/btn_continue"
+            android:text="@string/lanjutkan"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_button"
+            style="@style/btn_continue" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity"
+    android:background="@drawable/background1"
+    android:padding="20dp">
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/sugeng_rawuh"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_birth"
+        style="@style/btn_home"
+        android:backgroundTint="@color/menu1"
+        android:layout_marginTop="52dp"
+        android:text="@string/pencatatan_kelahiran"
+        android:background="@drawable/custom_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_death"
+        android:backgroundTint="@color/menu1"
+        android:layout_marginTop="52dp"
+        style="@style/btn_home"
+        android:background="@drawable/custom_button"
+        android:text="@string/pencatatan_kematian"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:backgroundTint="@color/menu2"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_about"
+        android:text="@string/tentang_desa"
+        android:background="@drawable/custom_button"
+        style="@style/btn_home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_birth"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:backgroundTint="@color/menu2"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_web"
+        android:text="@string/web_desa"
+        android:background="@drawable/custom_button"
+        style="@style/btn_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_death"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

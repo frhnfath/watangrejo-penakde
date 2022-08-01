@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".view.death.DeathActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            style="@style/tv_fields"
+            android:text="@string/nama_jenazah"
+            android:id="@+id/tv_jenazah" />
+        <EditText
+            style="@style/edt_fields"
+            android:background="@drawable/custom_edit_text"
+            android:hint="@string/nama_jenazah"
+            android:id="@+id/edt_nama_jenazah"
+            android:inputType="text" />
+        <TextView
+            style="@style/tv_fields"
+            android:text="@string/jenis_kelamin"
+            android:id="@+id/tv_jenis_kelamin" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_gender" />
+        <TextView
+            style="@style/tv_fields"
+            android:text="@string/kota_lahir" />
+        <EditText
+            style="@style/edt_fields"
+            android:id="@+id/edt_kota_lahir"
+            android:hint="@string/kota_lahir_provinsi"
+            android:background="@drawable/custom_edit_text"
+            android:inputType="text" />
+        <TextView
+            style="@style/tv_fields"
+            android:text="@string/tanggal_lahir" />
+        <EditText
+            style="@style/edt_fields"
+            android:background="@drawable/custom_edit_text"
+            android:id="@+id/edt_tanggal_lahir"
+            android:inputType="date"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/dd_mm_yyyy"/>
+        <TextView
+            style="@style/tv_fields"
+            android:text="@string/agama" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_religion" />
+    </LinearLayout>
+</ScrollView>

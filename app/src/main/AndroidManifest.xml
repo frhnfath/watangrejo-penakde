@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.frhnfath.penakde">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PenakDe"
+        tools:targetApi="31">
+        <activity
+            android:name=".ConfirmationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.SplashscreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.death.DeathActivity3"
+            android:exported="false"
+            android:parentActivityName=".view.death.DeathActivity2" />
+        <activity
+            android:name=".view.death.DeathActivity2"
+            android:exported="false"
+            android:parentActivityName=".view.death.DeathActivity" />
+        <activity
+            android:name=".view.birth.BirthActivity5"
+            android:exported="false"
+            android:parentActivityName=".view.birth.BirthActivity4" />
+        <activity
+            android:name=".view.birth.BirthActivity4"
+            android:exported="false"
+            android:parentActivityName=".view.birth.BirthActivity3" />
+        <activity
+            android:name=".view.CameraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.birth.BirthActivity3"
+            android:exported="false"
+            android:parentActivityName=".view.birth.BirthActivity2" />
+        <activity
+            android:name=".view.birth.BirthActivity2"
+            android:exported="false"
+            android:parentActivityName=".view.birth.BirthActivity" />
+        <activity
+            android:name=".view.death.DeathActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".view.WebsiteActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".view.AboutActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".view.birth.BirthActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

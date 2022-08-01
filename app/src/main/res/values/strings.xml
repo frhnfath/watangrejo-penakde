@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Penak De</string>
+    <string name="sugeng_rawuh">Sugeng Rawuh</string>
+    <string name="pencatatan_kematian">Pencatatan\nKematian</string>
+    <string name="pencatatan_kelahiran">Pencatatan\nKelahiran</string>
+    <string name="akta_kelahiran">Akta Kelahiran</string>
+    <string name="akta_kematian">Akta Kematian</string>
+    <string name="tentang_desa">Tentang Desa</string>
+    <string name="web_desa">Web Desa</string>
+    <string name="baby">Bayi</string>
+    <string name="jenazah">Jenazah</string>
+    <string name="petunjuk">Petunjuk</string>
+    <string name="petunjuk1">Siapkan dokumen-dokumen berikut : \n</string>
+    <string name="ket_ortu">• KTP orang tua bayi</string>
+    <string name="ket_saksi">• KTP 2 orang saksi</string>
+    <string name="ket_bidan_rs">• Surat keterangan kelahiran dari bidan/rumah sakit \n</string>
+    <string name="ket_jenazah">• KTP jenazah</string>
+    <string name="ket_pelapor">• KTP pelapor</string>
+    <string name="ket_dokter_rs">• Surat keterangan kematian dari dokter/rumah sakit \n</string>
+    <string name="petunjuk2">Pastikan dokumen yang difoto dapat terlihat dengan jelas dan dapat dibaca</string>
+    <string name="lanjutkan">Lanjutkan</string>
+    <string name="peta_wilayah">Peta Wilayah</string>
+    <string name="ket_desa">Desa Watangrejo terletak di Kecamatan Pracimantoro, Kabupaten Wonogiri yang memiliki luas wilayah sebesar 9,48 km² dengan ketinggian 289 mdpl. \n \nLuas penggunaan lahan untuk pekarangan dan bangunan di Desa Watangrejo sebesar 95,31 Ha dan luas tegalan atau perkebunan yaitu 841,85 Ha serta lain-lain 11,44 Ha.</string>
+    <string name="ket_dusun">Desa Watangrejo terdiri dari 8 dusun yang tersebar di seluruh wilayahnya sebagai berikut :</string>
+    <string name="jumlah_dusun">Jumlah Dusun</string>
+    <string name="list_desa">• Dusun Tlogorejo\n• Dusun Pelem\n• Dusun Masan\n• Dusun Nglancing\n• Dusun Ngelorejo\n• Dusun Pringwatan Wetan\n• Dusun Pringwatan Kulon\n• Dusun Pepet</string>
+    <string name="batas_desa">Batas Desa</string>
+    <string name="ket_batas">Desa Watangrejo yang berjarak 2 km dengan Kecamatan Pracimantoro memiliki batas wilayah sebagai berikut:</string>
+    <string name="utara">Utara</string>
+    <string name="desa_sambiroto_desa_pracimantoro"><![CDATA[: Desa Sambiroto & Desa Pracimantoro]]></string>
+    <string name="selatan">Selatan</string>
+    <string name="desa_joho_desa_petirsari"><![CDATA[: Desa Joho & Desa Petirsari]]></string>
+    <string name="barat">Barat</string>
+    <string name="desa_gendong">: Desa Gendong</string>
+    <string name="timur">Timur</string>
+    <string name="desa_suci">: Desa Suci</string>
+    <string name="jumlah_penduduk">Jumlah Penduduk</string>
+    <string name="ket_jumlah">Jumlah penduduk Desa Watangrejo\n(BPS 2021)</string>
+    <string name="nama_ayah">Nama Ayah</string>
+    <string name="nik_ayah">NIK Ayah</string>
+    <string name="_317xxxxxxx">317xxxxxxx</string>
+    <string name="foto_ktp_ayah">Foto KTP Ayah</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="nama_ibu">Nama Ibu</string>
+    <string name="nik_ibu">NIK Ibu</string>
+    <string name="foto_ktp_ibu">Foto KTP Ibu</string>
+    <string name="nomor_kontak">Nomor Kontak</string>
+    <string name="_081xxxxxxxx">081xxxxxxxx</string>
+    <string name="ktp_orang_tua">KTP Orang Tua</string>
+    <string name="ktp_saksi">KTP Saksi</string>
+    <string name="nama_saksi_1">Nama Saksi 1</string>
+    <string name="nik_saksi_1">NIK Saksi 1</string>
+    <string name="foto_ktp_saksi_1">Foto KTP Saksi 1</string>
+    <string name="nama_saksi_2">Nama Saksi 2</string>
+    <string name="nik_saksi_2">NIK Saksi 2</string>
+    <string name="foto_ktp_saksi_2">Foto KTP Saksi 2</string>
+    <string name="nomor_kontak_saksi_1">Nomor Kontak Saksi 1</string>
+    <string name="nomor_kontak_saksi_2">Nomor Kontak Saksi 2</string>
+    <string name="pemerintah_desa_watangrejo_wonogiri">Pemerintah Desa Watangrejo, Wonogiri</string>
+    <string name="laki_laki">Laki-laki</string>
+    <string name="_1_768_jiwa">1.768 jiwa</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="_1_773_jiwa">1.773 jiwa</string>
+    <string name="formulir_anda_sudah_terkirim">Formulir Anda Sudah Terkirim</string>
+    <string name="confirmation">Perangkat Desa yang bertugas akan menghubungi anda ketika akta sudah siap</string>
+    <string name="halaman_utama">Halaman Utama</string>
+    <string name="nama_bayi">Nama Bayi</string>
+    <string-array name="gender">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+    <string-array name="religions">
+        <item>Islam</item>
+        <item>Kristen</item>
+        <item>Katholik</item>
+        <item>Hindu</item>
+        <item>Buddha</item>
+    </string-array>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="nama_jenazah">Nama Jenazah</string>
+    <string name="nik_jenazah">NIK Jenazah</string>
+    <string name="foto_ktp_jenazah">Foto KTP Jenazah</string>
+    <string name="nama_pelapor">Nama Pelapor</string>
+    <string name="nik_pelapor">NIK Pelapor</string>
+    <string name="foto_ktp_pelapor">Foto KTP Pelapor</string>
+    <string name="nomor_kontak_pelapor">Nomor Kontak Pelapor</string>
+    <string name="kota_lahir">Kota Lahir</string>
+    <string name="kota_lahir_provinsi">Kota Lahir, Provinsi</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="agama">Agama</string>
+</resources>

@@ -51,6 +51,7 @@
         android:text="@string/halaman_utama"
         android:background="@drawable/custom_button"
         style="@style/btn_continue"
+        android:layout_marginBottom="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent" />

@@ -30,6 +30,84 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/spinner_gender" />
+        <TextView
+            style="@style/tv_fields"
+            android:layout_marginTop="5dp"
+            android:text="@string/kota_lahir" />
+        <EditText
+            style="@style/edt_fields"
+            android:background="@drawable/custom_edit_text"
+            android:hint="@string/kota_lahir_provinsi"
+            android:id="@+id/edt_kota_lahir"
+            android:inputType="text" />
+        <TextView
+            style="@style/tv_fields"
+            android:layout_marginTop="5dp"
+            android:text="@string/tanggal_lahir" />
+        <EditText
+            style="@style/edt_fields"
+            android:background="@drawable/custom_edit_text"
+            android:id="@+id/edt_tanggal_lahir"
+            android:inputType="date"
+            android:focusable="false"
+            android:gravity="center"
+            android:focusableInTouchMode="false"
+            android:hint="@string/dd_mm_yyyy"/>
+        <TextView
+            style="@style/tv_fields"
+            android:layout_marginTop="5dp"
+            android:text="@string/waktu_dilahirkan" />
+        <EditText
+            style="@style/edt_fields"
+            android:background="@drawable/custom_edit_text"
+            android:id="@+id/edt_waktu_dilahirkan"
+            android:inputType="time"
+            android:gravity="center"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/hh_mm"/>
+        <TextView
+            style="@style/tv_fields"
+            android:text="@string/anak_ke"
+            android:layout_marginTop="5dp" />
+        <EditText
+            style="@style/edt_fields"
+            android:background="@drawable/custom_edit_text"
+            android:hint="#"
+            android:gravity="center"
+            android:id="@+id/edt_anak_ke"
+            android:inputType="number" />
+        <TextView
+            style="@style/tv_fields"
+            android:text="@string/berat_bayi"
+            android:layout_marginTop="5dp" />
+        <EditText
+            style="@style/edt_fields"
+            android:background="@drawable/custom_edit_text"
+            android:hint="#"
+            android:gravity="center"
+            android:id="@+id/edt_berat"
+            android:inputType="numberDecimal" />
+        <TextView
+            style="@style/tv_fields"
+            android:text="@string/panjang_bayi"
+            android:layout_marginTop="5dp" />
+        <EditText
+            style="@style/edt_fields"
+            android:background="@drawable/custom_edit_text"
+            android:hint="#"
+            android:gravity="center"
+            android:id="@+id/edt_panjang"
+            android:inputType="numberDecimal" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/btn_continue"
+            android:text="@string/lanjutkan"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_button"
+            style="@style/btn_continue" />
     </LinearLayout>
 
 </ScrollView>

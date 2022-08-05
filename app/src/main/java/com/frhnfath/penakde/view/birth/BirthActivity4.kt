@@ -1,5 +1,6 @@
 package com.frhnfath.penakde.view.birth
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
@@ -24,6 +25,10 @@ class BirthActivity4 : AppCompatActivity() {
         ).also { arrayAdapter ->
             arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
             spinner.adapter = arrayAdapter
+        }
+        binding.btnContinue.setOnClickListener {
+            val intent = Intent(this, BirthActivity5::class.java)
+            startActivity(intent)
         }
     }
 }

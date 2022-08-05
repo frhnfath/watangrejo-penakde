@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.frhnfath.penakde.R
 import com.frhnfath.penakde.databinding.ActivityDeath2Binding
+import com.frhnfath.penakde.view.CameraActivity
 
 class DeathActivity2 : AppCompatActivity() {
 
@@ -20,6 +21,14 @@ class DeathActivity2 : AppCompatActivity() {
         binding.btnContinue.setOnClickListener {
             val intent = Intent(this, DeathActivity3::class.java)
             startActivity(intent)
+        }
+
+        binding.btnCameraJenazah.setOnClickListener {
+            startActivity(Intent(this, CameraActivity::class.java))
+        }
+
+        binding.btnCameraPelapor.setOnClickListener {
+            startActivity(Intent(this, CameraActivity::class.java))
         }
     }
 }

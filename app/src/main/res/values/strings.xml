@@ -77,6 +77,27 @@
         <item>Hindu</item>
         <item>Buddha</item>
     </string-array>
+    <string-array name="dusun">
+        <item>Telogorejo</item>
+        <item>Pelem</item>
+        <item>Masan</item>
+        <item>Nglancing</item>
+        <item>Ngelorejo</item>
+        <item>Pringwatan Wetan</item>
+        <item>Pringwatan Kulon</item>
+        <item>Pepet</item>
+    </string-array>
+    <string-array name="kelahiran">
+        <item>Normal</item>
+        <item>Caesar</item>
+    </string-array>
+    <string-array name="penolong_kelahiran">
+        <item>Dokter</item>
+        <item>Bidan</item>
+        <item>Tenaga Paramedis</item>
+        <item>Dukun Bersalin</item>
+        <item>Keluarga</item>
+    </string-array>
     <string name="jenis_kelamin">Jenis Kelamin</string>
     <string name="nama_jenazah">Nama Jenazah</string>
     <string name="nik_jenazah">NIK Jenazah</string>
@@ -90,4 +111,25 @@
     <string name="tanggal_lahir">Tanggal Lahir</string>
     <string name="dd_mm_yyyy">dd/mm/yyyy</string>
     <string name="agama">Agama</string>
+    <string name="pekerjaan">Pekerjaan</string>
+    <string name="dusun">Dusun</string>
+    <string name="rt">RT</string>
+    <string name="rw">RW</string>
+    <string name="tanggal_meninggal">Tanggal Meninggal</string>
+    <string name="waktu_meninggal">Waktu Meninggal</string>
+    <string name="hh_mm">HH:mm</string>
+    <string name="tempat_meninggal">Tempat Meninggal</string>
+    <string name="sebab_meninggal">Sebab Meninggal</string>
+    <string name="foto_surat_keterangan_kematian">Foto Surat Keterangan Kematian</string>
+    <string name="submit">Submit</string>
+    <string name="waktu_dilahirkan">Waktu Dilahirkan</string>
+    <string name="anak_ke">Anak Ke-</string>
+    <string name="berat_bayi">Berat Bayi (Kg)</string>
+    <string name="panjang_bayi">Panjang Bayi (cm)</string>
+    <string name="tempat_dilahirkan">Tempat Dilahirkan</string>
+    <string name="nama_rumah_sakit">Nama Rumah Sakit</string>
+    <string name="jenis_kelahiran">Jenis Kelahiran</string>
+    <string name="penolong_kelahiran">Penolong Kelahiran</string>
+    <string name="foto_surat_keterangan_kelahiran">Foto Surat Keterangan Kelahiran</string>
+    <string name="ket_rumah_sakit">Keterangan Rumah Sakit</string>
 </resources>
